@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Nom Cognoms">
+  <meta name="description" content="Recepta de truita de patates amb HTML5 semàntic i CSS">
+  <title>Truita de patates | Les receptes de l'alumne</title>
+  <link rel="stylesheet" href="estil.css">
+</head>
+<body>
+  <header>
+    <h1>Truita de patates</h1>
+    <p>Recepta per <strong>Nom Cognoms</strong> · Pràctica Pt1.1 · LMSI · DAM1</p>
+    <link rel="stylesheet" href="receta.css">
+  </header>
+
+  <nav aria-label="Menú principal">
+    <ul>
+      <li><a href="#recepta">Recepta</a></li>
+      <li><a href="#ingredients">Ingredients</a></li>
+      <li><a href="#detalls">Detalls</a></li>
+      <li><a href="#intolerancies">Intoleràncies</a></li>
+      <li><a href="#video">Vídeo</a></li>
+      <li><a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank" rel="noopener">W3C HTML i CSS</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article id="recepta">
+      <h2>Com fer la recepta</h2>
+      <figure>
+        <img src="img/truita.svg" alt="Truita de patates daurada en una paella" width="600" height="400">
+        <figcaption>La truita de patates, un clàssic de la cuina de casa.</figcaption>
+      </figure>
+      <p>La truita de patates és un plat <span class="destacat">senzill, econòmic i deliciós</span>. Segueix aquests passos:</p>
+      <ol>
+        <li><strong>Pela i talla</strong> les patates a làmines fines i talla també la ceba.</li>
+        <li><strong>Fregeix</strong> les patates a foc mitjà amb oli d'oliva durant uns 15 minuts, sense que es cremin. <span class="avis">Compte amb l'oli calent!</span></li>
+        <li><strong>Escorre</strong> les patates i la ceba i barreja-les amb els ous batuts i una mica de sal.</li>
+        <li><strong>Cuina</strong> la barreja a la paella: 4 minuts per un costat, gira-la amb un plat i 3 minuts per l'altre.</li>
+        <li><em>Serveix-la</em> calenta o freda. <span class="verd">Bon profit!</span></li>
+      </ol>
+    </article>
+
+    <div class="separador" role="presentation"></div>
+
+    <section id="ingredients">
+      <h2>Ingredients</h2>
+      <p>Per a 4 persones:</p>
+      <ul>
+        <li>4 patates mitjanes</li>
+        <li>5 ous</li>
+        <li>1 ceba</li>
+        <li>Oli d'oliva verge extra</li>
+        <li>Sal</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section id="detalls">
+      <h2>Detalls de la recepta</h2>
+      <table>
+        <caption>Resum</caption>
+        <tbody>
+          <tr><th scope="row">Nivell de dificultat</th><td>Fàcil ★☆☆</td></tr>
+          <tr><th scope="row">Temps de cocció</th><td>25 minuts (45 minuts amb la preparació)</td></tr>
+          <tr><th scope="row">Tipus de dieta</th><td>Vegetariana (també omnívora i flexitariana). No és vegana ni celíaca certificada.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <aside id="intolerancies">
+      <h2>Intoleràncies i al·lèrgens</h2>
+      <ul>
+        <li>Lactosa: <span class="verd">no en conté</span></li>
+        <li>Fructosa: <span class="verd">no en conté</span></li>
+        <li>Gluten: <span class="verd">no en conté</span></li>
+        <li>Marisc: <span class="verd">no en conté</span></li>
+        <li>Ous: <span class="avis">CONTÉ OUS</span></li>
+        <li>Fruits secs: <span class="verd">no en conté</span></li>
+        <li>Soja: <span class="verd">no en conté</span></li>
+        <li>Picant: <span class="verd">no en conté</span></li>
+        <li>Cacauets: <span class="verd">no en conté</span></li>
+      </ul>
+    </aside>
+
+    <div class="separador" role="presentation"></div>
+
+    <section id="video">
+      <h2>Vídeo de la recepta</h2>
+      <video controls poster="img/truita.svg" preload="none">
+        <source src="video/truita.mp4" type="video/mp4">
+        El teu navegador no admet vídeo HTML5.
+      </video>
+    </section>
+
+    <hr>
+
+    <section id="autor">
+      <h2>Sobre l'autor</h2>
+      <address>
+        Nom Cognoms<br>
+        Contacte: <a href="mailto:correu@exemple.cat">correu@exemple.cat</a>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nom Cognoms. Tots els drets reservats.</p>
+    <p>Programat per Nom Cognoms · INS Provençana · DAM1</p>
+  </footer>
+</body>
+</html>
